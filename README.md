@@ -25,8 +25,8 @@ logger1 = Logger.new('./Log1.log')
 logger2 = Logger.new('./Log2.log')
 logger3 = Logger.new('./Log3.log')
 
-#loggers can be added during initialize
-multi_logger = MultiLogger.new(logger1,logger2)
+# loggers can be added during initialize
+multi_logger = MultiLogger.new(logger1, logger2)
 multi_logger.info('Initializing')
 
 # Loggers can be modified
